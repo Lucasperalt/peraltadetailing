@@ -29,6 +29,7 @@ li {
     background-color: rgb(152, 42, 42);
     border-radius: 5px;
     font-style: initial;
+    transition: .3s;
 }
 
 main {
@@ -87,6 +88,7 @@ footer {
 .card__button {
     background-color: brown;
     border-radius: 5px;
+    transition: .3s;
 }
 
 .container {
@@ -318,4 +320,25 @@ footer {
             left: 4%;
             padding: 0.5rem;
         }
+    }
+
+    li:hover {
+        transform: scale(1.09);
+        margin: 0%;
+        background-color: rgb(194, 34, 34);
+        border-radius: 6px;
+
+
+    }
+    .card__button:hover{
+        background-color: rgb(194, 34, 34);
+    border-radius: 5px;
+    transform: scale(1.09);
+}
+    
+    .nav-link:hover{
+        padding: 6px;
+        margin: 0%;
+        background-color: rgb(127, 34, 34);
+        border-radius: 6px;
     }

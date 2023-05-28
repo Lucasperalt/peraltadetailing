@@ -1,0 +1,104 @@
+@media screen and (max-width: 699px) {
+    .logo_responsive {
+        width: 6rem;
+    }
+
+    .nav__desktop {
+        display: none;
+
+
+    }
+
+    .nav-item {
+        margin: 1rem;
+    }
+
+    .servicios {
+        display: block;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+    }
+
+    .imagen__servicios {
+        width: 90%;
+    }
+
+    .descripcion__servicios {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+    }
+
+    .faq {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 1rem;
+
+    }
+
+    .descripcion__faq {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 1rem;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:800px) {
+    .redes__r {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .redes {
+
+        height: 3rem;
+
+
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .nav_bar {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar li {
+        margin: 0.1rem;
+        padding: 0.01rem;
+    }
+
+    .nav__desktop {
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+
+    }
+
+    .logo {
+        width: 6rem;
+        position: absolute;
+        top: 0.12%;
+        left: 4%;
+        padding: 0.5rem;
+    }
+
+}

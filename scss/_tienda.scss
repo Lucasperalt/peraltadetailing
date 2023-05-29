@@ -1,0 +1,49 @@
+main {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .card__productos {
+            background-color: rgb(67, 67, 71);
+            width: 15rem;
+            padding: 1rem;
+            border-radius: 9px;
+            margin: 1rem;
+
+            .card__img {
+                width: 100%;
+
+                display: block;
+                border-radius: 9px;
+            }
+
+            .card__title {
+                margin-top: 10px;
+                text-align: center;
+                color: aliceblue;
+                font-size: 31px;
+                font-family: 'Dosis', sans-serif;
+            }
+
+            .card__description {
+                color: aliceblue;
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .card__button {
+                background-color: brown;
+                border-radius: 5px;
+                padding-left: 63px;
+                padding-right: 63px;
+                transition: .3s;
+            }
+
+            .card__button:hover {
+                background-color: rgb(194, 34, 34);
+                border-radius: 5px;
+                transform: scale(1.09);
+            }
+        }
+    }
+}

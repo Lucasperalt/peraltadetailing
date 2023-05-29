@@ -1,68 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:ital,wght@1,600&display=swap');
-@import "_404.scss"
-* {
+*{
     margin: 0;
     padding: 0;
 }
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:ital,wght@1,600&display=swap');
+
+/*Estilos 404 */
+@use"_404.scss";
+/* Estilos Footer */
+@use"_footer.scss";
+/* Estilos Index*/
+@use"_index.scss";
+/* Estilos FAQ*/
+@use"_preguntas_frecuentes.scss";
+/* Estilos Servicios*/
+@use"_servicios.scss";
+/* Estilos Tienda*/
+@use"_tienda.scss";
+/* Estilos Contacto*/
+@use"_contacto.scss";
+/* Estilos navbar */
+@use "_navbar.scss";
 
 
 
 
 
-ul {
-    list-style: none;
-    text-align: center;
-    padding: 1rem;
 
-}
 
-a {
-    text-decoration: none;
-    color: rgb(250, 250, 250);
-    margin: 0.5rem;
-}
 
-nav {
-    background-color: rgb(67, 67, 71);
-    position: fixed;
-    width: 100%;
-}
 
-li {
-    display: inline-block;
-    padding: 4.5px;
-    background-color: rgb(152, 42, 42);
-    border-radius: 5px;
-    font-style: initial;
-    transition: .3s;
-}
 
-main {
-    padding-top: 5rem;
-    background-color: antiquewhite;
-}
 
-.logo {
-    z-index: 10000;
-    width: 1rem;
-    position: absolute;
-    top: -10%;
-    left: 4%;
-    padding: 0.5rem;
-}
 
-footer {
-    background-color: rgb(67, 67, 71);
-
-    padding: 5rem
-}
-
-.copyright {
-
-    margin-top: 2rem;
-
-}
 
 .card__productos {
     background-color: rgb(67, 67, 71);
@@ -160,55 +131,26 @@ footer {
     width: 76%;
 }
 
-.redes__instagram {
-    display: inline-block;
-    font-size: inherit;
-    height: 2rem;
-    overflow: visible;
-    vertical-align: -0.125rem;
-}
 
-.redes__whatsapp {
-    margin-left: 1rem;
-    display: inline-block;
-    font-size: inherit;
-    height: 2em;
-    overflow: visible;
-    vertical-align: -0.125rem;
-}
 
 
 .titulo__contacto {
-    font: 2rem status-bar;
-    text-align: center;
-    padding: 1rem;
-    margin: 2rem;
-    font-family: 'Dosis', sans-serif;
+    
 }
 
 .redes__r {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3.5rem;
+    
 
 }
 
 .redes {
-    align-items: center;
-
-    margin: 5%;
-    display: inline-block;
-    font-size: inherit;
-    height: 4rem;
-    overflow: visible;
-    vertical-align: -0.125rem;
-
+    
 
 }
 
-.item__ubicacion {
+/* .item__ubicacion {
     margin-left: 16%;
-}
+} */
 
 .servicios {
     display: block;

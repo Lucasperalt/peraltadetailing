@@ -50,6 +50,9 @@
         margin-left: 1rem;
 
     }
+    .contacto__responsive{
+        display: none;
+    }
 
 
 }
@@ -100,5 +103,7 @@
         left: 4%;
         padding: 0.5rem;
     }
-
+    .contacto__mobile{
+        display: none;
+    }
 }
